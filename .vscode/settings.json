@@ -1,0 +1,56 @@
+{
+  "window.zoomLevel": -1,
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "beautify.tabSize": 2,
+  "less.validate": false,
+  "search.exclude": {
+      "**/bower_components": true,
+      "**/node_modules": false,
+      "**/node_modules/[^v]*": false,
+      "**/node_modules/?[^e]*": false,
+      "**/node_modules/??[^n]*": false,
+      "**/node_modules/???[^u]*": false,
+      "**/node_modules/????[^s]*": false,
+      // "**/node_modules/?????[^-]*": true,
+      // "**/node_modules/??????[^l]*": true
+      // 剩下 venus-l 开头的目录
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules/[^v]*": false,
+      "**/node_modules/?[^e]*": false,
+      "**/node_modules/??[^n]*": false,
+      "**/node_modules/???[^u]*": false,
+      "**/node_modules/????[^s]*": false,
+      "**/node_modules/?????[^-]*": false,
+      "**/node_modules/??????[^l]*": false
+      // 剩下 venus-l 开头的目录
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "files.associations": {
+      "*.wxss": "less",
+      "*.wxml": "html",
+      "*.xml": "html",
+      "*.wxs": "javascript",
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+      "suppressLineUncommittedWarning": true,
+      "suppressShowKeyBindingsNotice": true
+    },
+    "git.enableSmartCommit": true,
+  }
