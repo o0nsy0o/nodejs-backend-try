@@ -1,26 +1,14 @@
-import { Entity, PrimaryColumn, Column } from 'typeorm';
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../db/base.entity.class';
 
 @Entity()
-export class Cats {
-
-  @PrimaryColumn({ type: 'varchar', length: 50 })
-  public id: string;
-
-  @Column({ type: 'varchar', length: 50 })
-  public name: string;
-
-  @Column({ type: 'varchar', length: 2000 })
-  public description: string;
-
-  @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP' })
-  public created_at: string;
+export class Roles extends BaseEntity {
+  @Column({ type: 'varchar', length: 100 })
+  public RoleName: string;
 
   @Column({ type: 'varchar', length: 50 })
-  public created_by: string;
+  public active: boolean;
 
-  @Column({ type: 'datetime', default: null })
-  public updated_at?: string | null;
-
-  @Column({ type: 'varchar', length: 50, default: null })
-  public updated_by?: string | null;
+  @Column({ type: 'int', length: 100 })
+  public roleGrade: number;
 }

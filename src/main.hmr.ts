@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { RolesModule } from './module/roles/roles.module';
+import { RolesModule } from 'module/roles/roles.module';
 
 declare const module: any;
 

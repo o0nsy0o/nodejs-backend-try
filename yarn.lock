@@ -116,6 +116,10 @@
     deprecate "1.0.0"
     optional "0.1.4"
 
+"@nestjs/typeorm@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-5.1.0.tgz#b687cb318344f68f9f37d99324984445b087d59f"
+
 "@nodelib/fs.stat@^1.0.1":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.0.tgz#50c1e2260ac0ed9439a181de3725a0168d59c48a"
@@ -1673,6 +1677,13 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+class-validator@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.9.1.tgz#d60e58c5d14abca0a41bce38cf792ad4c46d1531"
+  dependencies:
+    google-libphonenumber "^3.1.6"
+    validator "10.4.0"
+
 cli-boxes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-1.0.0.tgz#4fa917c3e59c94a004cd61f8ee509da651687143"
@@ -2217,6 +2228,10 @@ dot-prop@^4.1.0:
 dotenv@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
+
+dotenv@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.0.0.tgz#24e37c041741c5f4b25324958ebbc34bca965935"
 
 duplexer3@^0.1.4:
   version "0.1.4"
@@ -2956,6 +2971,10 @@ globby@^8.0.1:
     ignore "^3.3.5"
     pify "^3.0.0"
     slash "^1.0.0"
+
+google-libphonenumber@^3.1.6:
+  version "3.1.11"
+  resolved "https://registry.yarnpkg.com/google-libphonenumber/-/google-libphonenumber-3.1.11.tgz#894eafe874fbd456e794e322501b832871b7c568"
 
 got@^6.7.1:
   version "6.7.1"
@@ -4508,6 +4527,10 @@ mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -6400,6 +6423,10 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typedi@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/typedi/-/typedi-0.8.0.tgz#d8e203bd1d41a96e2b0a5c6295147d74b2b2d03e"
+
 typeorm@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.7.tgz#4bbbace80dc91b1303be13f42d44ebf01d1b2558"
@@ -6611,6 +6638,10 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+validator@10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.4.0.tgz#ee99a44afb3bb5ed350a159f056ca72a204cfc3c"
 
 vary@^1, vary@~1.1.2:
   version "1.1.2"
